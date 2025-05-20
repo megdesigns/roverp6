@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MGBD Parts - Rover P6 Parts & Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-inter bg-[#666666] text-gray-100 pl-48">
+
+  <!-- Sidebar Navigation -->
+  <nav class="fixed top-0 left-0 h-full flex flex-col space-y-4 p-4">
+    <h2 class="text-2xl font-bold text-white mb-4">MGBD Parts</h2>
+    <a href="/" class="bg-[#3a3a3a] text-white px-3 py-2 rounded-lg hover:bg-gray-700">Home</a>
+    <a href="#about" class="bg-[#3a3a3a] text-white px-3 py-2 rounded-lg hover:bg-gray-700">About Us</a>
+    <a href="#services" class="bg-[#3a3a3a] text-white px-3 py-2 rounded-lg hover:bg-gray-700">Services</a>
+    <a href="#repair" class="bg-[#3a3a3a] text-white px-3 py-2 rounded-lg hover:bg-gray-700">Repair &amp; Servicing</a>
+  </nav>
+
+  <main id="main-content" class="pt-8">
+
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:bg-gray-700 focus:text-white focus:p-2">
+      Skip to Content
+    </a>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-800 text-white py-16 relative" style="background-image: url('roverphotos/header.jpg'); background-size: cover; background-position: center;">
+      <div class="absolute inset-0 bg-gray-800 bg-opacity-60"></div>
+      <div class="container mx-auto text-center relative z-10">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Rover P6 Parts &amp; Expertise</h1>
+        <p class="text-lg mb-6">Your trusted source for new, refurbished, and NOS Rover P6 parts.</p>
+        <a href="#parts-webstore" class="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Shop Parts</a>
+      </div>
+    </section>
+
+    <!-- Parts Webstore -->
+    <section id="parts-webstore" class="py-12 bg-[#939393] text-[#ffffff] py-12">
+      <div class="container mx-auto max-w-4xl px-4">
+        <h2 class="text-3xl text-[#3a3a3a] font-bold text-center mb-8">Parts Webstore</h2>
+        <div class="bg-white rounded-lg shadow-lg p-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Col 1 -->
+          <div>
+            <h3 class="text-xl text-black font-semibold mb-4 border-b pb-2">Remanufactured</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Brake Disks</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Water hoses</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Ball joints</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Road springs</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Col 2 -->
+          <div>
+            <h3 class="text-xl text-black font-semibold mb-4 border-b pb-2">Service exchange</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Refurbished parts</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Calipers</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Water pumps</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-gray-900 transition-colors duration-200 hover:bg-gray-200 rounded px-2 py-1 block">Bumpers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Banner -->
+    <section class="bg-[#3a3a3a] text-white py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Rover P6 Classic Car Show 2025</h2>
+        <p class="text-lg mb-6">Join us on June 15, 2025, for a celebration of Rover P6 heritage! Showcase your car and explore rare parts.</p>
+        <a href="#contact" class="bg-gray-100 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Register Now</a>
+      </div>
+    </section>
+
+    <!-- Gallery Slider Section (10 Images) -->
+          <section id="gallery" class="py-12 bg-[#939393] text-[#3a3a3a] py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8 text-center">Rover P6 Gallery</h2>
+            <div class="relative flex items-center justify-center">
+                <!-- Prev Arrow -->
+                <button id="prev-slide" class="z-10 absolute left-2 top-1/2 -translate-y-1/2 bg-gray-800 hover:bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-400 transition">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24">
+                        <rect width="24" height="24" rx="12" fill="white"/>
+                        <path d="M15 19l-7-7 7-7" stroke="#1e40af" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <!-- Slider Track -->
+                <div class="overflow-hidden w-full max-w-4xl">
+                    <div id="slider" class="flex transition-transform duration-500 ease-in-out">
+                        <!-- 10 Gallery Cards -->
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car1.jpg" alt="Rover P6 3500S" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 3500S</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car9.jpg" alt="Rover P6 2000TC" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 2000TC</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/wheel.jpg" alt="Rover P6 2200SC" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 2200SC</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car6.jpg" alt="Rover P6 2200TC" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 2200TC</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car4.jpg" alt="Rover P6 2000SC" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 2000SC</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car7.jpg" alt="Rover P6 Estoura" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 Estoura</h3>
+                            </div>
+                        </div>
+                        <div class="w-48 flex-shrink-0 aspect-square relative bg-white rounded-2xl shadow-lg overflow-hidden mx-2">
+                            <img src="roverphotos/car2.jpg" alt="Rover P6 3500 Auto" class="w-full h-full object-cover"/>
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-2">
+                                <h3 class="text-white text-lg font-semibold">Rover P6 3500 Auto</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+          <!-- Next Arrow -->
+          <button id="next-slide" class="z-10 absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 hover:bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-400 transition">
+            <svg class="w-6 h-6 text-gray-800" fill="none" viewBox="0 0 24 24">
+              <rect width="24" height="24" rx="12" fill="white"/>
+              <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Spotlight Section -->
+    <section id="video" class="bg-[#3a3a3a] text-white py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Video Spotlight</h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="relative w-full aspect-video">
+            <iframe
+              src="https://www.youtube.com/embed/oxgvlTddy5g"
+              title="Rover P6 rear caliper rebuild video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              class="absolute inset-0 w-full h-full rounded-lg"
+            ></iframe>
+          </div>
+          <p class="text-[#f5f5f5]-600 mt-4">
+            Rover P6 rear caliper rebuild video on our YouTube channel.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Order Section -->
+    <section id="how-to-order"class="py-12 bg-[#939393] text-[#3a3a3a] py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">How to Order</h2>
+        <p class="text-lg mb-6">Contact us to inquire about parts or services. Reach out via phone or email, and we’ll guide you through the process.</p>
+        <a href="#contact" class="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Get in Touch</a>
+      </div>
+    </section>
+
+
+ <!-- News Section -->
+<section id="news" class="bg-[#3a3a3a] text-white py-12">
+  <div class="container mx-auto px-4">
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-3xl font-bold text-center text-[#f5f5f5] flex-1">Latest News</h2>
+      <a href="/news" class="inline-flex items-center text-white font-medium hover:underline">
+        See all
+        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      
+    <!-- Card 1 -->
+     <article class="group bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+        <img src="roverphotos/news1.png" alt="Liverpool celebrate" class="w-full h-48 object-cover">
+        <div class="p-4 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center text-sm text-gray-500 space-x-2">
+              <span>MGBD news</span>
+              <span>•</span>
+              <span>3 hours ago</span>
+            </div>
+            <h3 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+             Good meet up
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+            Mike Brewer gives Mark the thumbs up--RSR at PC RESTO SHOW 2015, NEC
+            </p>
+          </div>
+          <div class="mt-4 flex items-center text-sm text-gray-500 space-x-2">
+            <span class="text-blue-600">Events</span>
+            <span>•</span>
+            <span>3 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+  <article class="group bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+        <img src="roverphotos/news 2.png" alt="Liverpool celebrate" class="w-full h-48 object-cover">
+        <div class="p-4 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center text-sm text-gray-500 space-x-2">
+              <span>MGBD News</span>
+              <span>•</span>
+              <span>3 hours ago</span>
+            </div>
+            <h3 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+             Good meet up
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+            Fuzz Townsend with Angie and our dual control Rover P6 2000 on the Rover Sports Register display at the Practical Classics Restoration Show NEC 2016
+            </p>
+          </div>
+          <div class="mt-4 flex items-center text-sm text-gray-500 space-x-2">
+            <span class="text-blue-600">Events</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Card 3 -->
+      <article class="group bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+        <img src="roverphotos/news3.png" alt="Papua rebel attack" class="w-full h-48 object-cover">
+        <div class="p-4 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center text-sm text-gray-500 space-x-2">
+              <img src="idn-icon.svg" alt="IDN Times" class="w-4 h-4">
+              <span>MGBD news</span>
+              <span>•</span>
+              <span>May 17, 2025</span>
+            </div>
+            <h3 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+              Easy fix, but not for the faint-hearted
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+                A few bolts and a bit of grease is all it takes to fix the Rover P6 3500S-MGBD PARTS AT PRACTICAL CLASSICS NEC RESTO SHOW 2014
+            </p>
+          </div>
+          <div class="mt-4 flex items-center text-sm text-gray-500 space-x-2">
+            <span class="text-blue-600">Tutorials</span>
+            <span>•</span>
+            <span>12 min read</span>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Card 4 -->
+      <article class="group bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+        <img src="roverphotos/news4.png" alt="Israeli-Palestinian tensions" class="w-full h-48 object-cover">
+        <div class="p-4 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center text-sm text-gray-500 space-x-2">
+              <img src="bbc-icon.svg" alt="BBC" class="w-4 h-4">
+              <span>MGBD news</span>
+              <span>•</span>
+              <span>April 15, 2025</span>
+            </div>
+            <h3 class="mt-2 text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+             What a line up
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+              RP6C BEAMISH RALLY 2013- Sponsored by MGBD PARTS
+            </p>
+          </div>
+          <div class="mt-4 flex items-center text-sm text-gray-500 space-x-2">
+            <span class="text-blue-600">Tips</span>
+            <span>•</span>
+            <span>5 min read</span>
+          </div>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-[#939393] text-[#3a3a3a] py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <p class="text-lg mb-6">Have questions? Reach out to our team of Rover P6 specialists.</p>
+        <p class="mb-4">Email: info@roverp6parts.com</p>
+        <p class="mb-6">Phone: +44 1234 567 890</p>
+        <form class="max-w-md mx-auto">
+          <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400" required>
+          <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400" required>
+          <textarea placeholder="Your Message" class="w-full p-3 mb-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400" rows="4" required></textarea>
+          <button type="submit" class="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#666666] text-white py-12">
+      <div class="container mx-auto text-center">
+        <p class="mb-4">© 2025 MGBD Parts. All rights reserved.</p>
+        <div class="flex justify-center space-x-6">
+          <a href="#about" class="hover:text-blue-300">About Us</a>
+          <a href="#privacy" class="hover:text-blue-300">Privacy Policy</a>
+          <a href="#terms" class="hover:text-blue-300">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu and Slider -->
+    <script>
+      // Slider
+      const slider = document.getElementById('slider');
+      const prevBtn = document.getElementById('prev-slide');
+      const nextBtn = document.getElementById('next-slide');
+      let currentIndex = 0;
+
+      function updateSlider() {
+        const slideWidth = slider.children[0].offsetWidth;
+        slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+      }
+
+      nextBtn.addEventListener('click', () => {
+        if (currentIndex < slider.children.length - 1) {
+          currentIndex++;
+          updateSlider();
+        }
+      });
+
+      prevBtn.addEventListener('click', () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateSlider();
+        }
+      });
+
+      window.addEventListener('resize', updateSlider);
+    </script>
+  </main>
+</body>
+</html>
